@@ -1,19 +1,13 @@
 import ContactList from './components/ContactList.jsx';
 import './App.css'
 import React from 'react';
-import { useState } from 'react';
-import dummyContacts from './components/ContactList.jsx';
 
-
-
- function App() {
-  const [contacts, setContacts] = useState(dummyContacts)
-console.log("Contacts: ", contacts)
+function App() {
   return (
     <>
-    <ContactList/>
+      <ContactList />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
