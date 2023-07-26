@@ -14,10 +14,10 @@ console.log("Contacts: ", contacts)
 useEffect(() => {
   async function fetchContacts() {
     try {
-     const response = await fetch('https://jsonplace-univclone.herokuapp.com/users');
-    const data= await response.json();
-    setContacts(data);
-    console.log('API Response:', data)
+     const response = await fetch('http://fsa-jsonplaceholder-69b5c48f1259.herokuapp.com/users');
+    const result = await response.json();
+    setContacts(result);
+    console.log('API Response:', result)
     } catch (error) {
       console.error(error);
     }
