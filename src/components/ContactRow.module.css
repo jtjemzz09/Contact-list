@@ -1,0 +1,25 @@
+.contactRow {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contactRow:hover {
+    background-color: #f0f0f0;
+}
+
+.contactRow td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contactRow td:first-child {
+    font-weight: bold;
+}
+
+.contactRow td:nth-child(2) {
+    font-style: italic;
+}
+
+.contactRow td:last-child {
+    text-align: right;
+}

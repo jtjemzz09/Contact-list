@@ -1,0 +1,26 @@
+.selectedContact {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+.selectedContact h2 {
+  margin-bottom: 10px;
+}
+
+.selectedContact p {
+  margin: 5px 0;
+}
+
+.selectedContact button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.selectedContact button:hover {
+  background-color: #0056b3;
+}

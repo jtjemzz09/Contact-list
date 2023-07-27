@@ -1,0 +1,48 @@
+/* ContactList.module.css */
+
+.contactList {
+  margin: 20px;
+}
+
+.contactList table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contactList th,
+.contactList td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contactList th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.contactList tr:hover {
+  background-color: #f5f5f5;
+  transition: background-color 0.2s ease;
+}
+
+.contactList td:first-child {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.contactList td:nth-child(2) {
+  font-style: italic;
+  color: #ff7f50;
+}
+
+.contactList td:last-child {
+  text-align: right;
+}
+
+.contactList .contactRow:nth-child(even) {
+  background-color: #e6f7ff;
+}
+
+.contactList .contactRow:nth-child(even):hover {
+  background-color: #d6f0ff;
+}
